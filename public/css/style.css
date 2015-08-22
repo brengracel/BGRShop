@@ -1,74 +1,28 @@
-/** Ovverride Bootstrap */
-.wrapper {
-	width: 980px;
-	margin: 0 auto;
+body{
+    background-color: #222
 }
 
-#custom-bootstrap-menu.navbar-default .navbar-brand {
-    color: rgba(255, 255, 255, 1);
-}
-#custom-bootstrap-menu.navbar-default {
-    font-size: 16px;
-    background-color: rgba(12, 30, 168, 1);
-    background: -webkit-linear-gradient(top, rgba(91, 114, 240, 1) 0%, rgba(12, 30, 168, 1) 100%);
-    background: linear-gradient(to bottom, rgba(91, 114, 240, 1) 0%, rgba(12, 30, 168, 1) 100%);
-    border-width: 0px;
-    border-radius: 21px;
-}
-#custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
-    color: rgba(255, 255, 255, 1);
-    background-color: rgba(12, 30, 168, 1);
-}
-#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
-#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
-    color: rgba(51, 51, 51, 1);
-    background-color: rgba(18, 107, 224, 1);
-    background: -webkit-linear-gradient(top, rgba(248, 248, 248, 0) 0%, rgba(18, 107, 224, 1) 100%);
-    background: linear-gradient(to bottom, rgba(248, 248, 248, 0) 0%, rgba(18, 107, 224, 1) 100%);
-}
-#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
-#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
-#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
-    color: rgba(85, 85, 85, 1);
-    background-color: rgba(107, 150, 214, 1);
-    background: -webkit-linear-gradient(top, rgba(231, 231, 231, 1) 0%, rgba(107, 150, 214, 1) 100%);
-    background: linear-gradient(to bottom, rgba(231, 231, 231, 1) 0%, rgba(107, 150, 214, 1) 100%);
-}
-#custom-bootstrap-menu.navbar-default .navbar-toggle {
-    border-color: #6b96d6;
-}
-#custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
-#custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
-    background-color: #6b96d6;
-}
-#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
-    background-color: #6b96d6;
-}
-#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
-#custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
-    background-color: #0c1ea8;
+#main_body{
+    margin: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5px;
+    padding-left:  15px;
+    padding-right: 15px;
+    background-color: #ffffff;
+    border-radius: 0 0 5px 5px;
 }
 
-#dashboard-side {
-    background: #f2dede;
-    min-height: 500px;
+.page-header{
+    text-align: center !important;
+    margin-top: 5px !important;
 }
 
-#dashboard-main {
-    background: #c0a16b;
-    min-height: 500px;
-
-}
-#table{
-    padding: 4px;
+navbar-fixed-top{
+   background-color: white !important;
 }
 
 
-@media only screen and (max-width:768px){
-    #custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
-    color: rgba(255, 255, 255, 1);
-    background-color: rgba(12, 30, 168, 1);
-    border-radius: 21px;
+#foot01{
+    text-align: center;
 }
-}
-
