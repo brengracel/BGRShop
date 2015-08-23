@@ -15,8 +15,5 @@
 </body>
 <!--Start Main-->
 <div id="main_body" class="container-fluid">
-    <header class="page-header">
-        <h1>BGR Online Shop</h1>
-    </header>
         
 	
