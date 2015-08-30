@@ -11,7 +11,7 @@
 	var defaults = {  
 		unstick : false,
 		easing: 'linear',
-		duration: 500,
+		duration: 0,
 		queue: false,
 		closeChar: '^',
 		closeTop: 0,
