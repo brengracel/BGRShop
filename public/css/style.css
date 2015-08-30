@@ -5,20 +5,18 @@ body{
 #main_body{
     margin: 5px;
     margin-left: 5%;
-    margin-top: 50px;
     margin-right: 5%;
     padding: 0px;
-    padding-left:  15px;
-    padding-right: 15px;
     background-color: #ffffff;
-    height: 1000px;
+    min-height: 1000px;
     border-radius: 0 0 5px 5px;
 }
 
-#loginbtn{
-    float: right;
+#header{
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
-#foot01{
-    text-align: center;
-    float: bottom;
+
+#foolt01{
+    clear: both;
 }
